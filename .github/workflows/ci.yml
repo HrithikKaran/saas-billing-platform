@@ -79,7 +79,8 @@ jobs:
                 REDIS_URL: "redis://localhost:6379/0"
 
                 STRIPE_SECRET_KEY: "sk_test_ci_dummy_key"
-                STRIPE_PUBLIC_KEY: "pk_test_ci_dummy_key"
+                STRIPE_PUBLISHABLE_KEY: "pk_test_ci_dummy_key"
+                STRIPE_WEBHOOK_SECRET:  "whsec_ci_dummy_key"
 
 
               run: |
